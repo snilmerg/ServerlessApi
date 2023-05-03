@@ -8,7 +8,10 @@
   "profile": "",
   "region": "",
   "configuration": "Release",
-  "s3-prefix": "ServerlessApi/",
-  "template": "serverless.template",
-  "template-parameters": ""
+  "template-parameters": "",
+  "function-runtime": "dotnet6",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "ServerlessApi::ServerlessApi.Functions::Get",
+  "function-url-enable": true
 }

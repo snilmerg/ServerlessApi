@@ -28,9 +28,9 @@ public class Functions
 
         var response = new APIGatewayProxyResponse
         {
-            StatusCode = (int)HttpStatusCode.OK,
+            StatusCode = (int) HttpStatusCode.OK,
             Body = "Hello AWS Serverless",
-            Headers = new Dictionary<string, string> { { "Content-Type", "text/plain" } }
+            Headers = new Dictionary<string, string> {{"Content-Type", "text/plain"}}
         };
 
         return response;
