@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApi", "MinimalApi\MinimalApi.csproj", "{DF62B3ED-71B5-43F9-BB60-E76B47405920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessApi", "ServerlessApi\ServerlessApi.csproj", "{F7C92D1F-8032-4750-8D40-A45BAF7FEB37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaFunction", "LambdaFunction\LambdaFunction.csproj", "{F7C92D1F-8032-4750-8D40-A45BAF7FEB37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
